@@ -1,0 +1,49 @@
+nav {
+    background-color: blue($color: #000000);
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li {
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+nav {
+    background-color: blue($color: #000000);
+    display: flex;
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+
+        li {
+            color: white;
+
+            .nav-list {
+                text-decoration: none;
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+.nav-list {
+    text-decoration: none;
+    font-size: 2rem;
+
+    &:hover {
+        background-color: red($color: #000000);
+        color: white;
+    }
+}

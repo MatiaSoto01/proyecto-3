@@ -1,0 +1,56 @@
+.Text1{
+    margin: 50;
+    padding: 30;
+
+    font-family: 'Pixelify Sans', sans-serif;
+ text-align: center;
+    align-self: center;
+}
+@media(min-width:768px) and (max-width: 1200px) {
+    .img{
+        display: flex;
+        min-height: 40px;
+        align-items: center;
+
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+
+/*productos*/
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    background-color:red;
+    height: 100%;
+
+
+        .tarjeta_producto {
+    border: 2px solid rgba(134, 21, 21, 0.041) ;
+
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+
+
+            &__img {
+    width: 100%;
+            }
+        }
+}
+
+.btn-azul {
+    background: linear-gradient(to right, yellow 0% 25%, blue 50% 100%) ;
+    border: solid 2px #2d5674 ;
+    color: white ;
+
+    &.btn-azul:hover {
+    background-color: white;
+    color: blueviolet;
+    border-color: blueviolet;
+  }
+}

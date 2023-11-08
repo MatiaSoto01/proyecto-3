@@ -1,0 +1,36 @@
+
+
+.tarjeta-producto {
+    border: 2px solid rgba(94, 89, 89, 0.041) ;
+
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tarjeta-producto img {
+    width: 100%;
+
+}
+.boton {
+    display:flex;
+    background-color: black;
+    padding: 1rem 1rem;
+    justify-content: center;
+
+    color: white;
+    border-radius: 40px;
+    align-content:center;
+}
+
+.btn-azul {
+    background-color: #2d5674 ;
+    border: solid 2px #2d5674 ;
+    color: white ;
+}
+
+.btn-azul:hover {
+    background-color: white;
+    color: blueviolet;
+    border-color: blueviolet;
+}
